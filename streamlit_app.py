@@ -67,7 +67,7 @@ if (selected == "Luas Lingkaran"):
   hitung = st.button("Hitung Luas")
 
   if hitung:
-    luas = 22/7 * jari * jari
+    luas = 3.14 * jari * jari
     st.write("Luas Lingkaran adalah : ", luas)
     # st.success(f"Luas Lingkaran adalah : {luas}")
 
