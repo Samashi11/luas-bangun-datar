@@ -99,6 +99,6 @@ if (selected == "Luas Trapesium"):
   hitung = st.button("Hitung Luas")
 
   if hitung:
-    luas = 1/2 * (sisi_a + sisi_b) * tinggi
+    luas = 0.5 * (sisi_a + sisi_b) * tinggi
     st.write("Luas Trapesium adalah : ", luas)
     # st.success(f"Luas Trapesium adalah : {luas}") 
